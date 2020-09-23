@@ -1,4 +1,4 @@
-//https://open.kattis.com/problems/pot
+//open.kattis.com/problems/pot
 //CPU: 0.00s
 
 using namespace std;
