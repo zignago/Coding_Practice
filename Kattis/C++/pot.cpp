@@ -1,27 +1,25 @@
 //https://open.kattis.com/problems/pot
+//CPU: 0.00s
 
+using namespace std;
 #include <iostream>
 #include <cmath>
-using namespace std;
 
 int main() 
 {
-    int num;
+    int cases;
     int total = 0;
     
-    cin >> num;
+    cin >> cases;
     
-    for(int i = 0; i < num; i++)
+    for(int i = 0; i < cases; i++)
     {
         int var;
         cin >> var;
         
-        int exponent = var % 10;
-        
-        total = total + pow((var/10), exponent);
+        total += pow(var/10, var % 10);
     }
 
     cout << total;
-    
     return 0;
 }
