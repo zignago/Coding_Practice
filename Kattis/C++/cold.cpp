@@ -1,3 +1,6 @@
+//https://open.kattis.com/problems/cold
+//CPU: 0.00s
+
 using namespace std;
 #include <iostream>
 
@@ -8,6 +11,7 @@ int main()
     
     int total_freezing = 0;
     
+    //individual temperature evaluation
     for(int i = 0; i < num_temps; i++)
     {
         int temp;
