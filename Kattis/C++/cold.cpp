@@ -1,4 +1,4 @@
-//https://open.kattis.com/problems/cold
+//open.kattis.com/problems/cold
 //CPU: 0.00s
 
 using namespace std;
